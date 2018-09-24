@@ -24,7 +24,6 @@ version "{new version}"
 
 // ...and...
 
-/* replace (system "git", "checkout", "tags/v0.9.2") with
-*/
+/* replace (system "git", "checkout", "tags/v0.9.2") with */
 system "git", "checkout", "tags/{new version tag}"
 ```
