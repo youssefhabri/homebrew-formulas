@@ -1,16 +1,16 @@
-Currently installs flutter 0.9.2
+Currently installs flutter 0.10.1
 
 # Installation:
 
 ```shell
-$ brew tap eclewlow/formulas
+$ brew tap youssefhabri/formulas
 $ brew install flutter
 ```
 
 or
 
 ```shell
-$ brew install eclewlow/formulas/flutter
+$ brew install youssefhabri/formulas/flutter
 ```
 
 # Installing other versions:
@@ -27,3 +27,5 @@ version "{new version}"
 /* replace (system "git", "checkout", "tags/v0.9.2") with */
 system "git", "checkout", "tags/{new version tag}"
 ```
+
+Original project by: [eclewlow](https://github.com/eclewlow)
