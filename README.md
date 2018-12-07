@@ -1,4 +1,4 @@
-Currently installs flutter 0.10.1
+Currently installs flutter 1.0.0
 
 # Installation:
 
@@ -19,12 +19,12 @@ If you want to install a different version {new version},
 just go to https://github.com/flutter/flutter and find the tag for the version you'd like to install and edit these lines in the formula:
 
 ```js
-/* replace (version "0.10.1") with */
+/* replace (version "1.0.0") with */
 version "{new version}"
 
 // ...and...
 
-/* replace (system "git", "checkout", "tags/v0.10.1") with */
+/* replace (system "git", "checkout", "tags/v1.0.0") with */
 system "git", "checkout", "tags/{new version tag}"
 ```
 
